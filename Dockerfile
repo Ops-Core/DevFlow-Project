@@ -3,7 +3,7 @@ FROM python:3.9
 # Set working directory inside the container
 WORKDIR /app
 # Copy Python script to the container
-COPY qr_generator.py .
+COPY QR-Generator.py .
 # Install dependencies
 RUN pip install qrcode[pil]
 # Define the command to run the script
