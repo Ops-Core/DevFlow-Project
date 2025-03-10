@@ -7,4 +7,4 @@ COPY qr_generator.py .
 # Install dependencies
 RUN pip install qrcode[pil]
 # Define the command to run the script
-CMD ["python", "qr_generator.py"]
+CMD ["python", " QR-Generator.py "]
